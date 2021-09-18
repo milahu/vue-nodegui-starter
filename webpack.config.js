@@ -9,7 +9,7 @@ module.exports = (env = {}) => ({
   target: 'node',
   output: {
     path: path.resolve(__dirname, './dist'),
-    publicPath: '/dist/',
+    publicPath: '',
   },
   resolve: {
     extensions: ['.ts', '.js', '.vue', '.json'],
